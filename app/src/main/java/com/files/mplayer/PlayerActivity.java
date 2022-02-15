@@ -71,7 +71,6 @@ public class PlayerActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         ArrayList<File> mySongs = (ArrayList<File>) getIntent().getSerializableExtra("key");
-//        mySongs = (ArrayList) bundle.getParcelableArrayList("songs");
         String songName = intent.getStringExtra("songname");
         position = bundle.getInt("pos", 0);
         txtsname.setSelected(true);
