@@ -73,7 +73,7 @@ public class PlayerActivity extends AppCompatActivity {
         ArrayList<File> mySongs = (ArrayList<File>) getIntent().getSerializableExtra("key");
 //        mySongs = (ArrayList) bundle.getParcelableArrayList("songs");
         String songName = intent.getStringExtra("songname");
-        position = bundle.getInt("pos", 1);
+        position = bundle.getInt("pos", 0);
         txtsname.setSelected(true);
         Uri uri = Uri.parse(mySongs.get(position).toString());
         sname = mySongs.get(position).getName();
