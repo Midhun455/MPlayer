@@ -52,7 +52,6 @@ public class PlayerActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
         btnprev = findViewById(R.id.btnPrev);
         btnnext = findViewById(R.id.btnNext);
         btnplay = findViewById(R.id.btnPlay);
