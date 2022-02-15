@@ -96,7 +96,6 @@ public class PlayerActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }
-
             }
         };
 
