@@ -23,12 +23,12 @@ import java.util.ArrayList;
 
 public class PlayerActivity extends AppCompatActivity {
 
+    public static final String EXTRA_NAME = "song_name";
+    static MediaPlayer mediaPlayer;
     AppCompatButton btnplay, btnnext, btnprev, btnff, btnfr;
     TextView txtsname, txtsstart, txtsstop;
     SeekBar seekmusic;
     String sname;
-    public static final String EXTRA_NAME = "song_name";
-    static MediaPlayer mediaPlayer;
     int position;
     ArrayList<File> mySongs;
     ImageView imageView;
